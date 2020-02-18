@@ -1,5 +1,9 @@
 <template>
-	<h1>It's da landing page</h1>
+	<div>
+		<h1>Welcome!</h1>
+		
+		<p>Welcome to Lipscomb's Department of Cinematic Arts talent finder</p>
+	</div>
 </template>
 
 <script>
@@ -9,7 +13,4 @@ export default {
 </script>
 
 <style scoped>
-h1 {
-	text-align: center;
-}
 </style>
