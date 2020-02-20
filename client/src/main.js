@@ -6,6 +6,7 @@ import Landing from './pages/Landing.vue';
 import Home from './pages/Home.vue';
 import Signup from './pages/Signup.vue';
 import Login from './pages/Login.vue';
+import SearchProfiles from './pages/SearchProfiles.vue';
 
 Vue.config.productionTip = false;
 
@@ -18,6 +19,7 @@ const router = new VueRouter({
 		{ path: '/home', component: Home },
 		{ path: '/signup', component: Signup },
 		{ path: '/login', component: Login },
+		{ path: '/user/search', component: SearchProfiles },
 	],
 });
 

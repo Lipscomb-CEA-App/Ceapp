@@ -44,6 +44,7 @@ header {
 	padding: 20px 0;
 	display: flex;
 	content-justify: space-between;
+	margin-bottom: 30px;
 }
 
 .aside {
