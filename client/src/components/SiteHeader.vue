@@ -3,7 +3,7 @@
 		<div class="aside"></div>
 
 		<div class="main">
-			<h1>Welcome!</h1>
+			<h1>*title*</h1>
 			<!--
 			<nav class="navbar navbar-expand">
 				<ul class="navbar-nav">
