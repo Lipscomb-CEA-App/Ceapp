@@ -34,43 +34,18 @@
 </template>
 
 <script>
-import * as R from 'ramda';
-import Fuse from 'fuse.js';
+import { searchForUsers } from '../api/user.js';
 
 export default {
 	name: 'search-profile',
 	data() {
-		const users = [
-			{
-				fullName: 'Bob Trufant',
-				bio: 'I am a businessman.',
-				id: 1,
-			},
-			{
-				fullName: 'Jimbo',
-				bio: 'Junior, aspiring director',
-				id: 2,
-			},
-			{
-				fullName: 'Joe McJoe',
-				bio: 'Joe mama',
-				id: 3,
-			},
-		];
-
-		const userResults = R.map(R.assoc('profilePhoto', 'https://placekitten.com/100/100'), users);
-
 		return {
-			userResults,
-			userSearch: new Fuse(userResults, { keys: ['fullName', 'bio'], threshold: 0.4 }),
 			searchText: '',
 		};
 	},
 	computed: {
-		// Eventually this'll be gone and the sever will do the filtering and just return the full list of users that the search returned. 
-		// This means `userResults` will be used to show users instead of this, and the `fuse.js` dependancy shouldn't be needed anymore (unless we start using elsewhere).
 		filteredUsers: function() {
-			return this.userSearch.search(this.searchText.trim());
+			return searchForUsers(this.searchText.trim());
 		},
 	},
 };
