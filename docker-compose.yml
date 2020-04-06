@@ -3,6 +3,7 @@ services:
     client:
         build: ./client
         ports:
-        - "8080:8080"
+        - "5000:8080"
         volumes:
-        - ./client:/ceapp/client
+          - /node_dir/node_modules # isolate node_modules for compatible os
+          - ./source:/node_dir/source
