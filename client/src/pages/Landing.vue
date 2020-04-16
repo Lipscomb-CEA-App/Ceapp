@@ -2,9 +2,11 @@
 	<div>
 		<main>
 			<div class="introduction">
-				<h1>Welcome to the <br> CEA connection page!</h1>
-
-				<p>Sit lorem optio mollitia quis esse? Ex ut tempora quas vero sed nulla Corporis et hic esse maiores veritatis. Error maxime alias accusantium dolores consequatur Illum quibusdam voluptatum aspernatur sit unde cumque ea hic Odit commodi tempore quas error asperiores deserunt impedit? Perferendis voluptates saepe quasi eaque neque Hic corrupti</p>
+				<div class="intro-text">
+					<h1>Welcome to the <br> CEA connection page!</h1>
+					
+					<p>Sit lorem optio mollitia quis esse? Ex ut tempora quas vero sed nulla Corporis et hic esse maiores veritatis. Error maxime alias accusantium dolores consequatur Illum quibusdam voluptatum aspernatur sit unde cumque ea hic Odit commodi tempore quas error asperiores deserunt impedit? Perferendis voluptates saepe quasi eaque neque Hic corrupti</p>
+				</div>
 				<button>Join Today!</button>
 			</div>
 		</main>
@@ -49,6 +51,11 @@ main {
 	width: 35%;
 }
 
+.intro-text {
+	padding: 15px 20px;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
 .introduction p {
 	text-align: left;
 	margin: 35px 0 20px;
@@ -62,6 +69,7 @@ main {
 	color: black;
 	font-weight: bold;
 	font-size: 1.2em;
+	margin: 20px;
 }
 
 .features {
