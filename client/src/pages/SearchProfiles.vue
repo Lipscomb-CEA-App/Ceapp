@@ -20,7 +20,7 @@
 				>
 					<img :src="user.profilePhoto" width="50" height="50" class="profile-photo" />
 					<div class="about">
-						<h2>{{ user.fullName }}</h2>
+						<h2 @click="gotoProfile(user)">{{ user.fullName }}</h2>
 						<p>{{ user.bio }}</p>
 					</div>
 				</li>
@@ -46,6 +46,11 @@ export default {
 	computed: {
 		filteredUsers: function() {
 			return searchForUsers(this.searchText.trim());
+		},
+	},
+	methods: {
+		gotoProfile: function(u) {
+			this.$router.push(`/user/${u.id}`);
 		},
 	},
 };
@@ -91,5 +96,13 @@ export default {
 
 .no-results p {
 	margin: 12px 0;
+}
+
+.about h2 {
+	cursor: pointer;
+}
+
+.about h2:hover {
+	text-decoration: underline;
 }
 </style>
