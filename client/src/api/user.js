@@ -29,4 +29,8 @@ function searchForUsers(text) {
 	return userSearcher.search(text);
 }
 
-export { searchForUsers };
+function findUserById(id) {
+	return R.find(R.propEq('id', parseInt(id, 10)), users);
+}
+
+export { searchForUsers, findUserById };
