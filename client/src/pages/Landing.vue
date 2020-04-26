@@ -43,7 +43,8 @@ export default {
 
 <style scoped>
 main {
-	background-image: url('https://via.placeholder.com/1024x960');
+	background: url('https://cdn.nashvillepost.com/files/base/scomm/nvp/image/2018/04/16x9/640w/LIPSCOMB_Business_School_Rendering_1.5ad65c212986f.jpg') no-repeat center center;
+	background-size: cover;
 }
 
 .introduction {
@@ -53,7 +54,8 @@ main {
 
 .intro-text {
 	padding: 15px 20px;
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(0, 0, 0, 0.3);
+	color: white;
 }
 
 .introduction p {
