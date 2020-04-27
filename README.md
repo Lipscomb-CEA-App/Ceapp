@@ -7,12 +7,31 @@
 - [Docker](https://www.docker.com/)
 - [Docker Compose](https://docs.docker.com/compose/) (included with Docker on Windows and macOS)
 
+Or alternatively
+
+- [Node 12](https://nodejs.org/en/)
+- Npm 6 (should be included with Node.js, but depending on how you install Node it may need to be installed separately)
+- [Vue CLI](https://cli.vuejs.org/guide/installation.html)
+
 ### Building
 
-Before your your first time building the project, run `docker-compose build` in the project root. Then to install the node modules, run `docker-compose run client npm install`.
+To setup the project, run the following commands:
 
-After that, the project can be started with `docker-compose up`. Any changes made to the `client` directory will be automatically picked up by the npm build server. So any changes to source code shouldn't require a server restart, but updating configuration files like `package.json` will.
+```
+$ cp client/src/env.js.example client/src/env.js
+$ docker-compose build
+$ docker-compose run client npm install
+```
 
-The initial step (`docker-compose build`) will only need to be repeated whenever any of the `Dockerfile`s change.
+After that, the project can be started with `docker-compose up` and it will be available at `http://localhost:8080`. Any changes made to the `client` or `server` directories will be automatically picked up by the project while running. So any changes to source code shouldn't require a server restart.
 
-Now the site should be available at `http://localhost:8080`.
+### Building without Docker
+
+Without Docker, you can build the project using the following commands:
+
+```
+$ cp client/src/env.js.example client/src/env.js
+$ npm install
+```
+
+Then the project can be started up using `npm run server`.
