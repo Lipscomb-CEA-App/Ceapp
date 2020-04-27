@@ -3,32 +3,49 @@
 		<div class="aside"></div>
 
 		<div class="main">
-			<h1>*title*</h1>
+			<h1>CEA</h1>
 			
 			<nav class="navbar navbar-expand">
 				<ul class="navbar-nav">
 					<li class="nav-item">
 						<router-link to="/" class="nav-link">Home</router-link>
 					</li>
+					<li class="nav-items">
+						<router-link to="/signup" class="nav-link">Signup</router-link>
+					</li>
+					<li class="nav-items">
+						<router-link to="/login" class="nav-link">Login</router-link>
+					</li>
+					<li class="nav-items">
+						<router-link to="/production" class="nav-link">Production</router-link>
+					</li>
+					<li class="nav-items">
+						<router-link to="/user/search" class="nav-link">SearchUsers</router-link>
+					</li>
 				</ul>
 			</nav>
 			
 		</div>
 
-		<div class="aside">
-			<!--
+		<!--<div class="aside">
+			
 			<div v-if="loggedIn">
 				<a href="#" @click.prevent="logout">Log out</a>
 			</div>
-			-->
+			
 			<div>
 				<router-link to="/signup">Signup</router-link>
 			</div>
 			<div>
 				<router-link to="/login">Login</router-link>
 			</div>
+			<div>
+				<router-link to="/production">Production</router-link>
+			</div>
 			<div>Settings?</div>
 		</div>
+		-->
+
 	</header>
 </template>
 
