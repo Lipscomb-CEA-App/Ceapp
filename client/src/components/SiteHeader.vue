@@ -4,7 +4,7 @@
 
 		<div class="main">
 			<h1>*title*</h1>
-			<!--
+			
 			<nav class="navbar navbar-expand">
 				<ul class="navbar-nav">
 					<li class="nav-item">
@@ -12,7 +12,7 @@
 					</li>
 				</ul>
 			</nav>
-			-->
+			
 		</div>
 
 		<div class="aside">
