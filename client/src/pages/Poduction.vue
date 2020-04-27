@@ -13,68 +13,51 @@
         <div>
             <h1 style="margin-top:5%;margin-bottom: 0%;">Featured Productions</h1>
         </div>
-        <md-card>
-      <md-card-media>
-        <img src="/assets/examples/card-image-1.jpg" alt="People">
-      </md-card-media>
+        
 
-      <md-card-header>
-        <div class="md-title">Title goes here</div>
-        <div class="md-subhead">Subtitle here</div>
-      </md-card-header>
-
-      <md-card-actions>
-        <md-button>Action</md-button>
-        <md-button>Action</md-button>
-      </md-card-actions>
-
-      <md-card-content>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio itaque ea, nostrum odio. Dolores, sed accusantium quasi non, voluptas eius illo quas, saepe voluptate pariatur in deleniti minus sint. Excepturi.
-      </md-card-content>
-    </md-card>
 		<div class="features">
             
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Profile">
-				<h3>Profile</h3>
-				<p>Create your own profile. Show your hobbies, upload pictures, resumes, and more!</p>
+				<h1 style="font-size: 25px;">Lorem ipsum</h1>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Profile">
-				<h3>Profile</h3>
-				<p>Create your own profile. Show your hobbies, upload pictures, resumes, and more!</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Calendar">
-				<h3>Calendar</h3>
-				<p>View our calendar for future productions and scheduling</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Connect">
-				<h3>Connect</h3>
-				<p>Connect with other students, directors, producers, and crew members!</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;" >Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 		</div>
         <div class="features">
             <div>
 				<img src="https://via.placeholder.com/150x150" alt="Profile">
-				<h3>Profile</h3>
-				<p>Create your own profile. Show your hobbies, upload pictures, resumes, and more!</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Profile">
-				<h3>Profile</h3>
-				<p>Create your own profile. Show your hobbies, upload pictures, resumes, and more!</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Calendar">
-				<h3>Calendar</h3>
-				<p>View our calendar for future productions and scheduling</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
 			<div>
 				<img src="https://via.placeholder.com/150x150" alt="Connect">
-				<h3>Connect</h3>
-				<p>Connect with other students, directors, producers, and crew members!</p>
+				<h3 style="font-size: 25px;">Lorem ipsum</h3>
+				<p style="font-size: 15px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 			</div>
         </div>
 	</div>
